@@ -38,7 +38,7 @@ const changeContentBody = (content) => {
                 bodyContent.innerHTML = home;
                 currentMenu = 'home';
             } else if (content === 'resume') {
-                bodyContent.innerHTML = resume;
+                bodyContent.innerHTML = resume(curriculum);
                 currentMenu = 'resume';
             } else if (content === 'portfolio') {
                 bodyContent.innerHTML = portfolio;
