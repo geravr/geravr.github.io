@@ -68,7 +68,7 @@ header div.row {
 }
 button.btn {
   text-decoration: none;
-  padding: 5px 0;
+  padding: 10px 0;
   font-weight: 600;
   font-size: 1.2rem;
   color: var(--blue-color-2);
