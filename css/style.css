@@ -274,6 +274,9 @@ h4.title {
     list-style-type: none;
     text-align: center;
 }
+.skills ul li i {
+    font-size: 2.5rem;
+}
 .skills ul li p {
     color: var(--white-color-2);
 }
