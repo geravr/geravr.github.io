@@ -1,5 +1,5 @@
 export const portfolio = `
-<div class="card col-sm-12 col-md-6 col-lg-4">
+<div class="card col-sm-12 col-md-6 col-xl-4">
     <article class="card">
         <img src="./image/portfolio/criptocotizador.png" alt="Cripto Cotizador" class="thumb">
         <div class="infos row">
@@ -14,7 +14,7 @@ export const portfolio = `
         </div>
     </article>
 </div>
-<div class="card col-sm-12 col-md-6 col-lg-4">
+<div class="card col-sm-12 col-md-6 col-xl-4">
     <article class="card">
         <img src="./image/portfolio/ProductHuntClone.png" alt="Product Hunt Clone" class="thumb">
         <div class="infos row">
@@ -29,7 +29,7 @@ export const portfolio = `
         </div>
     </article>
 </div>
-<div class="card col-sm-12 col-md-6 col-lg-4">
+<div class="card col-sm-12 col-md-6 col-xl-4">
     <article class="card">
         <img src="./image/portfolio/Control Gastos.png" alt="Control de gastos" class="thumb">
         <div class="infos row">
@@ -44,7 +44,7 @@ export const portfolio = `
         </div>
     </article>
 </div>
-<div class="card col-sm-12 col-md-6 col-lg-4">
+<div class="card col-sm-12 col-md-6 col-xl-4">
     <article class="card">
         <img src="./image/portfolio/Buscador de letras.png" alt="Control de gastos" class="thumb">
         <div class="infos row">
@@ -59,7 +59,7 @@ export const portfolio = `
         </div>
     </article>
 </div>
-<div class="card col-sm-12 col-md-6 col-lg-4">
+<div class="card col-sm-12 col-md-6 col-xl-4">
     <article class="card">
         <img src="./image/portfolio/NoticiasAPI.png" alt="Control de gastos" class="thumb">
         <div class="infos row">
@@ -74,7 +74,7 @@ export const portfolio = `
         </div>
     </article>
 </div>
-<div class="card col-sm-12 col-md-6 col-lg-4">
+<div class="card col-sm-12 col-md-6 col-xl-4">
     <article class="card">
         <img src="./image/portfolio/GasolinerasAPI.png" alt="Control de gastos" class="thumb">
         <div class="infos row">
@@ -89,7 +89,7 @@ export const portfolio = `
         </div>
     </article>
 </div>
-<div class=" col-12 col-md-4 mt-5">
+<div class=" col-12 col-md-6 mt-5">
     <button class="btn"><a href="https://github.com/geravr" target="_blank">Conoce más de mis proyectos <i class="fab fa-github fa-1x"></i></a></button>
 </div>
 `;
