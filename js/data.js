@@ -107,6 +107,68 @@ const curriculum = {
                                 prueba: "Prueba"
                             }
                         ]
-                    }
+                    },
+                    portfolio: [
+                        {
+                            title: "Criptocotizador",
+                            usedTecnology: ["CRA","Hooks","Axios","API"],
+                            mainTecnology: "React",
+                            faIcoMainTecnology: "fab fa-react",
+                            img: "./image/portfolio/criptocotizador.png",
+                            url: "https://criptocotizador.netlify.com/",
+                            github: "https://github.com/geravr/criptoCotizador",
+                            description: "Cotizador para consultar el tipo de cambio actual de las criptomonedas más populares a distintos tipos de monedas nacionales, usando react hooks y consumiento la API de cryptocompare.com"
+                        },
+                        {
+                            title: "Product Hunt Clone",
+                            usedTecnology: ["Next.js","Context API","Firebase","MDBReact"],
+                            mainTecnology: "React",
+                            faIcoMainTecnology: "fab fa-react",
+                            img: "./image/portfolio/ProductHuntClone.png",
+                            url: "https://producthunt-clone.netlify.com/",
+                            github: "https://github.com/geravr/productHuntClone",
+                            description: "Aplicación basada en el sitio producthunt con las siguientes características: Registro y login de usuarios, creación de productos a usuarios registrados, votos, comentarios, búsqueda, listado de productos y populares."
+                        },
+                        {
+                            title: "Control de gastos",
+                            usedTecnology: ["CRA","Hooks","Local Storage"],
+                            mainTecnology: "React",
+                            faIcoMainTecnology: "fab fa-react",
+                            img: "./image/portfolio/controlGastos.png",
+                            url: "https://controlgastos.netlify.com/",
+                            github: "https://github.com/geravr/controlGastos",
+                            description: "App para administrar ingresos y gastos, almacenando datos en local storage Características: Presupuesto inicial, agregar/eliminar ingresos adicionales, agregar/eliminar gastos y reestablecer todos los datos."
+                        },
+                        {
+                            title: "Buscador de letras",
+                            usedTecnology: ["CRA","Hooks","Axios","API"],
+                            mainTecnology: "React",
+                            faIcoMainTecnology: "fab fa-react",
+                            img: "./image/portfolio/buscadorLetras.png",
+                            url: "https://buscadorletracancion.netlify.com/",
+                            github: "https://github.com/geravr/buscadorLetraMusicaAPI",
+                            description: "Buscador de letras de canciones y biografía de artistas y bandas musicales, utilizando la api de lyrics.ovh para la letra, y theaudiodb.com para la biografía del artista."
+                        },
+                        {
+                            title: "Noticias API",
+                            usedTecnology: ["CRA","React CC","Fetch","API","Materialize"],
+                            mainTecnology: "React",
+                            faIcoMainTecnology: "fab fa-react",
+                            img: "./image/portfolio/NoticiasAPI.png",
+                            url: "https://newsapireact.netlify.com/",
+                            github: "https://github.com/geravr/noticiasAPI",
+                            description: "Web de noticias recientes hecha con react class component, con form para filtrado por principales categorías de noticias, consumiendo la api de newsapi.org"
+                        },
+                        {
+                            title: "Gasolineras API",
+                            usedTecnology: ["JS Vanilla","ES6+","Fetch","API"],
+                            mainTecnology: "Vanilla",
+                            faIcoMainTecnology: "fab fa-js",
+                            img: "./image/portfolio/GasolinerasAPI.png",
+                            url: "https://gasolinerasapi.netlify.com/",
+                            github: "https://github.com/geravr/gasolinerasAPI",
+                            description: "App para consultar ubicación y precios de gasolineas de Guadalajara, Jalisco. Utilizando la api del gobierno api.datos.gob.mx, y el mapa de openstreetmap.org"
+                        }
+                    ]
                 }
 export default curriculum;

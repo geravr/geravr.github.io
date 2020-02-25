@@ -41,7 +41,7 @@ const changeContentBody = (content) => {
                 bodyContent.innerHTML = resume(curriculum);
                 currentMenu = 'resume';
             } else if (content === 'portfolio') {
-                bodyContent.innerHTML = portfolio;
+                bodyContent.innerHTML = portfolio(curriculum);
                 currentMenu = 'portfolio';
             } else if (content === 'contact') {
                 bodyContent.innerHTML = contact;
