@@ -157,7 +157,7 @@ const curriculum = {
                             description: "Cotizador para consultar el tipo de cambio actual de las criptomonedas más populares a distintos tipos de monedas nacionales, usando react hooks y consumiento la API de cryptocompare.com"
                         },
                         {
-                            title: "Product Hunt Clone",
+                            title: "Product Hunt Clon",
                             usedTecnology: ["Next.js","Context API","Firebase","MDBReact"],
                             mainTecnology: "React",
                             faIcoMainTecnology: "fab fa-react",
