@@ -458,7 +458,7 @@ article.card a svg {
 /**************************** HD PLUS ****************************/
 @media screen and (max-width: 1600px) {
   header {
-    height: 75vh;
+    height: 60vh;
   }
 }
 
@@ -469,7 +469,7 @@ article.card a svg {
 /**************************** TABLET ****************************/
 @media screen and (max-width: 960px) {
   header {
-    height: 40vh;
+    height: 50vh;
   }
   header h1 {
     font-size: 3rem;
@@ -501,9 +501,6 @@ article.card a svg {
 
 /**************************** LARGE MOBILE ****************************/
 @media screen and (max-width: 600px) {
-  header {
-    height: 65vh !important;
-  }
   header h1 {
     font-size: 2.8rem;
     padding: 0 2rem;
@@ -533,9 +530,6 @@ article.card a svg {
 
 /**************************** MEDIUM MOBILE ****************************/
 @media screen and (max-width: 375px) {
-  header {
-    height: 60vh !important;
-  }
   header h1 {
     font-size: 2.5rem;
     padding: 0 2rem;
@@ -564,9 +558,6 @@ article.card a svg {
 
 /**************************** SMALL MOBILE ****************************/
 @media screen and (max-width: 320px) {
-  header {
-    height: 70vh !important;
-  }
   header h1 {
     font-size: 2rem;
     padding: 0 1.8rem;
