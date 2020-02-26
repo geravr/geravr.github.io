@@ -30,7 +30,7 @@ const data = curriculum.resume;
             <div class="col s12 m6 about-me">
                 <h4 class="title">Formación</h4>
                 <ul class="timeline">
-                    ${curriculum.resume.training.map(({ title, date, company, description }) => {
+                    ${data.training.map(({ title, date, company, description }) => {
                       return `<li class="item-timeline">
                                 <h5 class="item-title">${title}</h5>
                                 <span class="item-period">${date}</span>
@@ -39,7 +39,7 @@ const data = curriculum.resume;
                             </li>`;
                     }).join(' ')}
                     <h4>Educación</h4>
-                    ${curriculum.resume.education.map(({ title, date, company, description }) => {
+                    ${data.education.map(({ title, date, company, description }) => {
                       return `<li class="item-timeline">
                                 <h5 class="item-title">${title}</h5>
                                 <span class="item-period">${date}</span>
@@ -52,36 +52,24 @@ const data = curriculum.resume;
             <div class="col-sm-12 col-md-6 about-me skills">
                 <h4 class="title">Coding <strong>Skills</strong></h4>
                 <ul class="row m-0 px-0">
-                    <li class="col">
-                        <i class="fab fa-html5 fa-3x"></i>
-                        <p>HTML 5</p>
-                    </li>
-                    <li class="col">
-                        <i class="fab fa-css3-alt fa-3x"></i>
-                        <p>CSS 3</p>
-                    </li>
-                    <li class="col">
-                        <i class="fab fa-js fa-3x"></i>
-                        <p>JavaScript ES6+</p>
-                    </li>
-                </ul>
-                <ul class="row m-0 px-0">
-                    <li class="col">
-                        <i class="fab fa-react fa-3x"></i>
-                        <p>React JS</p>
-                    </li>
-                    <li class="col">
-                        <i class="fab fa-github fa-3x"></i>
-                        <p>Github</p>
-                    </li>
-                    <li class="col">
-                        <i class="fab fa-node-js fa-3x"></i>
-                        <p>Node JS</p>
-                    </li>
+                    ${data.codingSkills.map(({ skill, faIcoSkill }) => {
+                        return `<li class="col-4 my-1 py-1">
+                        <i class="${faIcoSkill} fa-3x"></i>
+                        <p>${skill}</p>
+                    </li>`
+                    }).join(' ')}
                 </ul>
             </div>
-            <div class="col-sm-12 col-md-6 about-me skills">
+            <div class="col-sm-12 col-md-6 about-me skills soft-skills">
                 <h4 class="title">Soft <strong>Skills</strong></h4>
+                <ul class="row m-0 px-0">
+                    ${data.softSkills.map(({ skill, faIcoSkill }) => {
+                        return `<li class="col-4 my-1 py-1">
+                        <i class="${faIcoSkill} fa-3x"></i>
+                        <p>${skill}</p>
+                    </li>`
+                    }).join(' ')}
+                </ul>
             </div>
         `)
 }

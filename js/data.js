@@ -94,17 +94,54 @@ const curriculum = {
                                 description: ""
                             }
                         ],
-                        skills: [
+                        codingSkills: [
                             {
-                                html: "HTML 5",
-                                css: "CSS 3",
-                                javascript: "JavaScript ES6+",
-                                react: "React JS",
-                                github: "Github",
-                                node: "Node JS"
+                                skill: "HTML 5",
+                                faIcoSkill: "fab fa-html5"
                             },
                             {
-                                prueba: "Prueba"
+                                skill: "CSS 3",
+                                faIcoSkill: "fab fa-css3-alt"
+                            },
+                            {
+                                skill: "JavaScript ES6+",
+                                faIcoSkill: "fab fa-js"
+                            },
+                            {
+                                skill: "React JS",
+                                faIcoSkill: "fab fa-react"
+                            },
+                            {
+                                skill: "Github",
+                                faIcoSkill: "fab fa-github"
+                            },
+                            {
+                                skill: "Node JS",
+                                faIcoSkill: "fab fa-node-js"
+                            }
+
+                        ],
+                        proSkills: [
+                            {
+
+                            }
+                        ],
+                        softSkills: [
+                            {
+                                skill: "Trabajo en equipo",
+                                faIcoSkill: "fas fa-people-carry"
+                            },
+                            {
+                                skill: "Aprendizaje constante",
+                                faIcoSkill: "fas fa-book-reader"
+                            },
+                            {
+                                skill: "Comunicación efectiva",
+                                faIcoSkill: "fas fa-comments"
+                            },
+                            {
+                                skill: "Resolución de problemas",
+                                faIcoSkill: "fas fa-check-circle"
                             }
                         ]
                     },
