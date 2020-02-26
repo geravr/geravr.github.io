@@ -487,6 +487,13 @@ article.card a svg {
   .profile-content {
     margin-top: -15rem;
   }
+  .profile-content {
+    margin-top: -20rem;
+    padding: 5rem 0 2rem 0;
+    background: #fff;
+    color: #001628;
+    border-radius: 5px;
+  }
   .divisor {
     margin-bottom: -0.2px;
   }
@@ -505,7 +512,7 @@ article.card a svg {
   .menu nav ul li p.text {
     display: none;
   }
-  .menu nav ul li p {
+  .menu nav ul li .nav-icon {
     font-size: 2.5rem !important;
   }
   .menu nav ul li {

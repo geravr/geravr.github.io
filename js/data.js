@@ -28,7 +28,7 @@ const curriculum = {
                             },
                             {
                                 title: "Control de gastos",
-                                company: "Proyecto personal - en proceso",
+                                company: "Proyecto personal",
                                 date: "Diciembre 2019",
                                 usedTecnology: ["CRA","Hooks","Local Storage"],
                                 url: "https://controlgastos.netlify.com/",
@@ -36,7 +36,7 @@ const curriculum = {
                             },
                             {
                                 title: "Criptocotizador",
-                                company: "Proyecto personal - en proceso",
+                                company: "Proyecto personal",
                                 date: "Diciembre 2019",
                                 usedTecnology: ["CRA","Hooks","Axios","API"],
                                 url: "https://criptocotizador.netlify.com/",
@@ -84,7 +84,7 @@ const curriculum = {
                             {
                                 title: "Lic. En Desarrollo de T.I.",
                                 company: "Universidad del Valle de México",
-                                date: "En Pausa",
+                                date: "Trunca",
                                 description: ""
                             },
                             {
@@ -188,7 +188,7 @@ const curriculum = {
                         },
                         {
                             title: "Noticias API",
-                            usedTecnology: ["CRA","React CC","Fetch","API","Materialize"],
+                            usedTecnology: ["React CC","Fetch","API","Materialize"],
                             mainTecnology: "React",
                             faIcoMainTecnology: "fab fa-react",
                             img: "./image/portfolio/NoticiasAPI.png",
