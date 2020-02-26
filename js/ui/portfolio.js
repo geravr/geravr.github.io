@@ -42,7 +42,7 @@ const portfolio = curriculum => {
       }
     )
     .join(" ")}
-    <div class=" col-12 col-md-8 mt-5">
+    <div class=" col-12 col-md-4 mt-5">
         <button class="btn"><a href="https://github.com/geravr" target="_blank">Conoce más de mis proyectos <i class="fab fa-github fa-lg"></i></a></button>
     </div>`
 };

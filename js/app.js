@@ -13,8 +13,8 @@ setTimeout(() => {
 }, 1500);
 
 const bodyContent = document.querySelector('#bodyContent');
-bodyContent.innerHTML = resume(curriculum);
-let currentMenu = 'resume';
+bodyContent.innerHTML = portfolio(curriculum);
+let currentMenu = 'portfolio';
 
 // const changeTheme = () => {
 //     console.log('Clic en cambio de tema')
