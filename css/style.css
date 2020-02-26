@@ -99,6 +99,8 @@ a.btn:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
+
+/**************************** PROFILE ****************************/
 .profile h2 {
   font-size: 5rem;
   font-weight: 600;
@@ -164,8 +166,17 @@ a.btn:hover {
     transform: scale(1);
   }
 }
+.profile-content .social {
+  color: var(--blue-color-1) !important;
+  transition: transform 0.2s;
+  margin: 0 5px;
+}
+.profile-content .social:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
 
-/**************************** Menu ****************************/
+/**************************** MENU ****************************/
 nav.nav-menu {
   margin-top: 8rem;
 }
