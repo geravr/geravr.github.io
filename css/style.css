@@ -166,6 +166,9 @@ a.btn:hover {
     transform: scale(1);
   }
 }
+.profile-content a {
+  text-decoration: none;
+}
 .profile-content .social {
   color: var(--blue-color-1) !important;
   transition: transform 0.2s;
