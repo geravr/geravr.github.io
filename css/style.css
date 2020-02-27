@@ -132,11 +132,11 @@ button.btn:hover > svg {
   text-align: justify;
 }
 .profile-avatar {
-  width: 150px;
+  width: 160px;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% auto;
-  filter: blur(5px);
+
   animation: zoomOut 200ms forwards;
 }
 .profile-avatar:hover {
@@ -149,11 +149,11 @@ button.btn:hover > svg {
   }
   20% {
     transform: scale(1.1);
-    filter: blur(3px);
+
   }
   40% {
     transform: scale(1);
-    filter: blur(2px);
+
   }
   100% {
     transform: scale(1.2);
@@ -302,7 +302,7 @@ h4.title {
   margin-top: 5rem;
 }
 .skills h4.title strong {
-  color: var(--blue-color-2);
+  color: var(--blue-color-3);
 }
 .skills ul {
   padding: 1.5rem 0;
@@ -342,7 +342,7 @@ h4.title {
   color: var(--linkedin-color);
 }
 .soft-skills ul li svg {
-  color: var(--gray-color-2);
+  color: var(--blue-color-2);
 }
 
 /**************************** CARDS - PORTFOLIO ****************************/
@@ -386,8 +386,6 @@ article.card .infos .title {
 article.card .infos .mainTecnology {
   margin: 5px 0 -5px 0;
   padding: 0;
-  /* margin-top: -4rem;
-    margin-bottom: 4rem; */
 }
 article.card .infos .mainTecnology .flag {
   display: block;
@@ -457,6 +455,68 @@ article.card a svg {
   color: var(--dark-blue-color-1);
   margin-right: -15px;
 }
+
+/**************************** CONTACT ****************************/
+.contact {
+  color: var(--white-color-1);
+}
+.contact h4 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.contacts-items .contacts-item.card-box {
+color: #a9a9a9;
+letter-spacing: 0;
+font-weight: 400;
+visibility: visible;
+font-size: 16px;
+position: relative;
+background: rgba(255,255,255,.05);
+box-shadow: 0 0 50px rgba(0,0,0,.2);
+border-radius: 18px;
+transition: all .3s ease 0s;
+min-height: 87px;
+text-align: left;
+padding: 20px 20px 20px 75px;
+}
+.contacts-items .contacts-item .icon {
+  letter-spacing: 0;
+  font-weight: 400;
+  visibility: visible;
+  text-align: left;
+  margin: 0;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 40px;
+  color: var(--blue-color-2);
+}
+.contacts-items .contacts-item .name {
+  letter-spacing: 0;
+  visibility: visible;
+  text-align: left;
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.contacts-items .contacts-item p {
+  color: #a9a9a9;
+  letter-spacing: 0;
+  font-weight: 400;
+  visibility: visible;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 0;
+  margin: 0;
+}
+
 
 /**************************** HD PLUS ****************************/
 @media screen and (max-width: 1600px) {

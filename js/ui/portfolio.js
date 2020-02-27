@@ -3,7 +3,7 @@ const portfolio = curriculum => {
   return `${data.map(
       ({
         title,
-        faIcoMainTecnology,
+        iconMainTecnology,
         usedTecnology,
         mainTecnology,
         img,
@@ -27,7 +27,7 @@ const portfolio = curriculum => {
                         </p>
                         </div>
                         <div class="mainTecnology col-2">
-                            <i class="flag ${faIcoMainTecnology} fa-2x"></i>
+                            <i class="flag ${iconMainTecnology} fa-2x"></i>
                             <p>${mainTecnology}</p>
                         </div>
                     

@@ -4,7 +4,7 @@ import contact from './ui/contact.js';
 import curriculum from './data.js';
 
 
-// First load - show spinner 1.5s
+// Show spinner 1.5s in first load
 setTimeout(() => {
     document.querySelector('#spinner').classList.add('displayNone');
     document.querySelector('#header').classList.remove('displayNone');
@@ -12,6 +12,7 @@ setTimeout(() => {
     document.querySelector('#firstBody').classList.remove('displayNone');
 }, 1500);
 
+// Set portfolio content in first load
 const bodyContent = document.querySelector('#bodyContent');
 bodyContent.innerHTML = portfolio(curriculum);
 let currentMenu = 'portfolio';
@@ -24,15 +25,17 @@ let currentMenu = 'portfolio';
 // }
 
 const changeContentBody = (content) => {
-    // Show current menu
     if (content != currentMenu) {
-        bodyContent.classList.remove("bounceInRight");
-        bodyContent.classList.add("bounceOutLeft");
+        // Show current nav-menu
         let activeMenu = document.querySelectorAll(".currentMenu");
         activeMenu.forEach( (e, i) => {
             activeMenu[i].classList.remove("currentMenu");
         })
         document.querySelector(`#${content}`).classList.add("currentMenu");
+        
+        // Change content body
+        bodyContent.classList.remove("bounceInRight");
+        bodyContent.classList.add("bounceOutLeft");
         setTimeout(() => {
             if (content === 'home') {
                 bodyContent.innerHTML = home;
@@ -44,7 +47,7 @@ const changeContentBody = (content) => {
                 bodyContent.innerHTML = portfolio(curriculum);
                 currentMenu = 'portfolio';
             } else if (content === 'contact') {
-                bodyContent.innerHTML = contact;
+                bodyContent.innerHTML = contact(curriculum);
                 currentMenu = 'contact';
             }
             bodyContent.classList.remove("bounceOutLeft");

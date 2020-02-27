@@ -1,4 +1,4 @@
-/**************************** ANIMATIONS ****************************/
+/**************************** SLIDE ANIMATIONS ****************************/
 @-webkit-keyframes slideInUp {
     from {
       -webkit-transform: translate3d(0, 100%, 0);

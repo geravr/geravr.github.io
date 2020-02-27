@@ -52,9 +52,9 @@ const data = curriculum.resume;
             <div class="col-sm-12 col-md-6 about-me skills">
                 <h4 class="title">Coding <strong>Skills</strong></h4>
                 <ul class="row m-0 px-0">
-                    ${data.codingSkills.map(({ skill, faIcoSkill }) => {
+                    ${data.codingSkills.map(({ skill, icon }) => {
                         return `<li class="col-4 my-1 py-1">
-                        <i class="${faIcoSkill} fa-3x"></i>
+                        <i class="${icon} fa-3x"></i>
                         <p>${skill}</p>
                     </li>`
                     }).join(' ')}
@@ -63,9 +63,9 @@ const data = curriculum.resume;
             <div class="col-sm-12 col-md-6 about-me skills soft-skills">
                 <h4 class="title">Soft <strong>Skills</strong></h4>
                 <ul class="row m-0 px-0">
-                    ${data.softSkills.map(({ skill, faIcoSkill }) => {
+                    ${data.softSkills.map(({ skill, icon }) => {
                         return `<li class="col-4 my-1 py-1">
-                        <i class="${faIcoSkill} fa-3x"></i>
+                        <i class="${icon} fa-3x"></i>
                         <p>${skill}</p>
                     </li>`
                     }).join(' ')}

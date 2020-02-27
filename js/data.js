@@ -97,27 +97,27 @@ const curriculum = {
                         codingSkills: [
                             {
                                 skill: "HTML 5",
-                                faIcoSkill: "fab fa-html5"
+                                icon: "fab fa-html5"
                             },
                             {
                                 skill: "CSS 3",
-                                faIcoSkill: "fab fa-css3-alt"
+                                icon: "fab fa-css3-alt"
                             },
                             {
                                 skill: "JavaScript ES6+",
-                                faIcoSkill: "fab fa-js"
+                                icon: "fab fa-js"
                             },
                             {
                                 skill: "React JS",
-                                faIcoSkill: "fab fa-react"
+                                icon: "fab fa-react"
                             },
                             {
                                 skill: "Github",
-                                faIcoSkill: "fab fa-github"
+                                icon: "fab fa-github"
                             },
                             {
                                 skill: "Node JS",
-                                faIcoSkill: "fab fa-node-js"
+                                icon: "fab fa-node-js"
                             }
 
                         ],
@@ -129,19 +129,19 @@ const curriculum = {
                         softSkills: [
                             {
                                 skill: "Trabajo en equipo",
-                                faIcoSkill: "fas fa-people-carry"
+                                icon: "fas fa-people-carry"
                             },
                             {
                                 skill: "Aprendizaje constante",
-                                faIcoSkill: "fas fa-book-reader"
+                                icon: "fas fa-book-reader"
                             },
                             {
                                 skill: "Comunicación efectiva",
-                                faIcoSkill: "fas fa-comments"
+                                icon: "fas fa-comments"
                             },
                             {
                                 skill: "Resolución de problemas",
-                                faIcoSkill: "fas fa-check-circle"
+                                icon: "fas fa-check-circle"
                             }
                         ]
                     },
@@ -150,7 +150,7 @@ const curriculum = {
                             title: "Criptocotizador",
                             usedTecnology: ["CRA","Hooks","Axios","API"],
                             mainTecnology: "React",
-                            faIcoMainTecnology: "fab fa-react",
+                            iconMainTecnology: "fab fa-react",
                             img: "./image/portfolio/criptoCotizador.jpg",
                             url: "https://criptocotizador.netlify.com/",
                             github: "https://github.com/geravr/criptoCotizador",
@@ -160,7 +160,7 @@ const curriculum = {
                             title: "Product Hunt Clon",
                             usedTecnology: ["Next.js","Context API","Firebase","MDBReact"],
                             mainTecnology: "React",
-                            faIcoMainTecnology: "fab fa-react",
+                            iconMainTecnology: "fab fa-react",
                             img: "./image/portfolio/ProductHuntClone.jpg",
                             url: "https://producthunt-clone.netlify.com/",
                             github: "https://github.com/geravr/productHuntClone",
@@ -170,7 +170,7 @@ const curriculum = {
                             title: "Control de gastos",
                             usedTecnology: ["CRA","Hooks","Local Storage"],
                             mainTecnology: "React",
-                            faIcoMainTecnology: "fab fa-react",
+                            iconMainTecnology: "fab fa-react",
                             img: "./image/portfolio/controlGastos.jpg",
                             url: "https://controlgastos.netlify.com/",
                             github: "https://github.com/geravr/controlGastos",
@@ -180,7 +180,7 @@ const curriculum = {
                             title: "Buscador de letras",
                             usedTecnology: ["CRA","Hooks","Axios","API"],
                             mainTecnology: "React",
-                            faIcoMainTecnology: "fab fa-react",
+                            iconMainTecnology: "fab fa-react",
                             img: "./image/portfolio/buscadorLetras.jpg",
                             url: "https://buscadorletracancion.netlify.com/",
                             github: "https://github.com/geravr/buscadorLetraMusicaAPI",
@@ -190,7 +190,7 @@ const curriculum = {
                             title: "Noticias API",
                             usedTecnology: ["React CC","Fetch","API","Materialize"],
                             mainTecnology: "React",
-                            faIcoMainTecnology: "fab fa-react",
+                            iconMainTecnology: "fab fa-react",
                             img: "./image/portfolio/NoticiasAPI.jpg",
                             url: "https://newsapireact.netlify.com/",
                             github: "https://github.com/geravr/noticiasAPI",
@@ -200,11 +200,33 @@ const curriculum = {
                             title: "Gasolineras API",
                             usedTecnology: ["JS Vanilla","ES6+","Fetch","API"],
                             mainTecnology: "Vanilla",
-                            faIcoMainTecnology: "fab fa-js",
+                            iconMainTecnology: "fab fa-js",
                             img: "./image/portfolio/GasolinerasAPI.jpg",
                             url: "https://gasolinerasapi.netlify.com/",
                             github: "https://github.com/geravr/gasolinerasAPI",
                             description: "App para consultar ubicación y precios de gasolineas de Guadalajara, Jalisco. Utilizando la api del gobierno api.datos.gob.mx, y el mapa de openstreetmap.org"
+                        }
+                    ],
+                    contact: [
+                        {
+                            title: "Email",
+                            value: "gerardovilla212@gmail.com",
+                            icon: "fas fa-at"
+                        },
+                        {
+                            title: "Teléfono",
+                            value: "+52 33 2497 6255",
+                            icon: "fas fa-phone-alt"
+                        },
+                        {
+                            title: "Skype",
+                            value: "gerardovilla212",
+                            icon: "fab fa-skype"
+                        },
+                        {
+                            title: "Dirección",
+                            value: "Zapopan, Jalisco, México",
+                            icon: "fas fa-map-marker-alt"
                         }
                     ]
                 }
