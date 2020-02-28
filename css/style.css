@@ -564,12 +564,14 @@ padding: 20px 20px 20px 75px;
 
 /**************************** LARGE MOBILE ****************************/
 @media screen and (max-width: 600px) {
+  header {
+    height: 60vh;
+  }
   header h1 {
     font-size: 2.8rem;
     padding: 0 2rem;
   }
-
-  .menu nav ul li p.text {
+  .menu nav {
     display: none;
   }
   .menu nav ul li .nav-icon {
@@ -597,9 +599,6 @@ padding: 20px 20px 20px 75px;
     font-size: 2.5rem;
     padding: 0 2rem;
   }
-  .menu nav ul li p.text {
-    display: none;
-  }
   .menu nav ul li p {
     font-size: 2.5rem !important;
   }
@@ -624,9 +623,6 @@ padding: 20px 20px 20px 75px;
   header h1 {
     font-size: 2rem;
     padding: 0 1.8rem;
-  }
-  .menu nav ul li p.text {
-    display: none;
   }
   .menu nav ul li p {
     font-size: 2.5rem !important;
