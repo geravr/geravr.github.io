@@ -1,6 +1,6 @@
 const portfolio = curriculum => {
   const data = curriculum.portfolio;
-  return `<h4 class="title col-12 ml-5">Conoce mi trabajo</h4>
+  return `<h4 class="title col-12 text-center">Conoce mi trabajo</h4>
   ${data.map(
       ({
         title,

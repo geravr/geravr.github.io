@@ -2,7 +2,7 @@ const contact = (curriculum) => {
 const data = curriculum.contact;
     return (
         `<div class="col-sm-12 col-lg-8 about-me contact">
-            <h4>Mantente en contacto</h4>
+            <h4 class="title col-12 text-center">Mantente en contacto</h4>
             <div class="row contacts-items">
                 ${data.map(
                     ({

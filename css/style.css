@@ -460,11 +460,6 @@ article.card a svg {
 .contact {
   color: var(--white-color-1);
 }
-.contact h4 {
-  margin-top: 0;
-  text-align: center;
-  font-size: 2.5rem;
-}
 .contacts-items .contacts-item.card-box {
 color: #a9a9a9;
 letter-spacing: 0;
