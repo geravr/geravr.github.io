@@ -187,14 +187,14 @@ const curriculum = {
                             description: "Buscador de letras de canciones y biografía de artistas y bandas musicales, utilizando la api de lyrics.ovh para la letra, y theaudiodb.com para la biografía del artista."
                         },
                         {
-                            title: "Noticias API",
-                            usedTecnology: ["React CC","Fetch","API","Materialize"],
+                            title: "Redux CRUD",
+                            usedTecnology: ["CRA","Redux","Axios","Bootstrap"],
                             mainTecnology: "React",
                             iconMainTecnology: "fab fa-react",
-                            img: "./image/portfolio/NoticiasAPI.jpg",
-                            url: "https://newsapireact.netlify.com/",
-                            github: "https://github.com/geravr/noticiasAPI",
-                            description: "Web de noticias recientes hecha con react class component, con form para filtrado por principales categorías de noticias, consumiendo la api de newsapi.org"
+                            img: "./image/portfolio/reduxCRUD.jpg",
+                            url: "https://redux-gv.netlify.com/",
+                            github: "https://github.com/geravr/reduxCRUD",
+                            description: "Aplicación básica para registro de productos (1 CRUD), hecha con Redux para la gestión de states que componen la aplicación, se utlizó json-server para simular el consumo de una API"
                         },
                         {
                             title: "Gasolineras API",
